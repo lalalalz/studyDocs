@@ -1,0 +1,968 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://www.gnu.org/software/bash/manual/html_node/index.html
+Subject: Top (Bash Reference Manual)
+Date: Tue, 3 Aug 2021 23:17:15 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--DgjLGDwKHtpxF809k8zl8cOoQhb5VnbSTKg7VsGLrT----"
+
+
+------MultipartBoundary--DgjLGDwKHtpxF809k8zl8cOoQhb5VnbSTKg7VsGLrT----
+Content-Type: text/html
+Content-ID: <frame-7D4E1D4AFEB8D18366C57B471AA96A7B@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.gnu.org/software/bash/manual/html_node/index.html
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd"><html><!-- This text is a brief description of t=
+he features that are present in
+the Bash shell (version 5.1, 21 December 2020).
+
+This is Edition 5.1, last updated 21 December 2020,
+of The GNU Bash Reference Manual,
+for Bash, Version 5.1.
+
+Copyright (C) 1988-2020 Free Software Foundation, Inc.
+
+Permission is granted to copy, distribute and/or modify this document
+under the terms of the GNU Free Documentation License, Version 1.3 or
+any later version published by the Free Software Foundation; with no
+Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+A copy of the license is included in the section entitled
+"GNU Free Documentation License". --><!-- Created by GNU Texinfo 6.7, http:=
+//www.gnu.org/software/texinfo/ --><head><meta http-equiv=3D"Content-Type" =
+content=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"tex=
+t/css" href=3D"cid:css-e3a0b070-55c4-47e4-9e96-49a88ffa83da@mhtml.blink" />
+
+<title>Top (Bash Reference Manual)</title>
+
+<meta name=3D"description" content=3D"Top (Bash Reference Manual)">
+<meta name=3D"keywords" content=3D"Top (Bash Reference Manual)">
+<meta name=3D"resource-type" content=3D"document">
+<meta name=3D"distribution" content=3D"global">
+<meta name=3D"Generator" content=3D"makeinfo">
+<link href=3D"https://www.gnu.org/software/bash/manual/html_node/index.html=
+#Top" rel=3D"start" title=3D"Top">
+<link href=3D"https://www.gnu.org/software/bash/manual/html_node/Indexes.ht=
+ml" rel=3D"index" title=3D"Indexes">
+<link href=3D"https://www.gnu.org/software/bash/manual/html_node/index.html=
+#SEC_Contents" rel=3D"contents" title=3D"Table of Contents">
+<link href=3D"https://www.gnu.org/software/bash/manual/dir/index.html" rel=
+=3D"up" title=3D"(dir)">
+<link href=3D"https://www.gnu.org/software/bash/manual/html_node/Introducti=
+on.html" rel=3D"next" title=3D"Introduction">
+
+<link rel=3D"stylesheet" type=3D"text/css" href=3D"https://www.gnu.org/soft=
+ware/gnulib/manual.css">
+
+
+</head>
+
+<body lang=3D"en">
+<h1 class=3D"settitle" align=3D"center">Bash Reference Manual</h1>
+
+
+
+
+
+
+
+
+
+
+<span id=3D"SEC_Contents"></span>
+<h2 class=3D"contents-heading">Table of Contents</h2>
+
+<div class=3D"contents">
+
+<ul class=3D"no-bullet">
+  <li><a id=3D"toc-Introduction-1" href=3D"https://www.gnu.org/software/bas=
+h/manual/html_node/Introduction.html#Introduction">1 Introduction</a>
+  <ul class=3D"no-bullet">
+    <li><a id=3D"toc-What-is-Bash_003f-1" href=3D"https://www.gnu.org/softw=
+are/bash/manual/html_node/What-is-Bash_003f.html#What-is-Bash_003f">1.1 Wha=
+t is Bash?</a></li>
+    <li><a id=3D"toc-What-is-a-shell_003f-1" href=3D"https://www.gnu.org/so=
+ftware/bash/manual/html_node/What-is-a-shell_003f.html#What-is-a-shell_003f=
+">1.2 What is a shell?</a></li>
+  </ul></li>
+  <li><a id=3D"toc-Definitions-1" href=3D"https://www.gnu.org/software/bash=
+/manual/html_node/Definitions.html#Definitions">2 Definitions</a></li>
+  <li><a id=3D"toc-Basic-Shell-Features-1" href=3D"https://www.gnu.org/soft=
+ware/bash/manual/html_node/Basic-Shell-Features.html#Basic-Shell-Features">=
+3 Basic Shell Features</a>
+  <ul class=3D"no-bullet">
+    <li><a id=3D"toc-Shell-Syntax-1" href=3D"https://www.gnu.org/software/b=
+ash/manual/html_node/Shell-Syntax.html#Shell-Syntax">3.1 Shell Syntax</a>
+    <ul class=3D"no-bullet">
+      <li><a id=3D"toc-Shell-Operation-1" href=3D"https://www.gnu.org/softw=
+are/bash/manual/html_node/Shell-Operation.html#Shell-Operation">3.1.1 Shell=
+ Operation</a></li>
+      <li><a id=3D"toc-Quoting-1" href=3D"https://www.gnu.org/software/bash=
+/manual/html_node/Quoting.html#Quoting">3.1.2 Quoting</a>
+      <ul class=3D"no-bullet">
+        <li><a id=3D"toc-Escape-Character-1" href=3D"https://www.gnu.org/so=
+ftware/bash/manual/html_node/Escape-Character.html#Escape-Character">3.1.2.=
+1 Escape Character</a></li>
+        <li><a id=3D"toc-Single-Quotes-1" href=3D"https://www.gnu.org/softw=
+are/bash/manual/html_node/Single-Quotes.html#Single-Quotes">3.1.2.2 Single =
+Quotes</a></li>
+        <li><a id=3D"toc-Double-Quotes-1" href=3D"https://www.gnu.org/softw=
+are/bash/manual/html_node/Double-Quotes.html#Double-Quotes">3.1.2.3 Double =
+Quotes</a></li>
+        <li><a id=3D"toc-ANSI_002dC-Quoting-1" href=3D"https://www.gnu.org/=
+software/bash/manual/html_node/ANSI_002dC-Quoting.html#ANSI_002dC-Quoting">=
+3.1.2.4 ANSI-C Quoting</a></li>
+        <li><a id=3D"toc-Locale_002dSpecific-Translation" href=3D"https://w=
+ww.gnu.org/software/bash/manual/html_node/Locale-Translation.html#Locale-Tr=
+anslation">3.1.2.5 Locale-Specific Translation</a></li>
+      </ul></li>
+      <li><a id=3D"toc-Comments-1" href=3D"https://www.gnu.org/software/bas=
+h/manual/html_node/Comments.html#Comments">3.1.3 Comments</a></li>
+    </ul></li>
+    <li><a id=3D"toc-Shell-Commands-1" href=3D"https://www.gnu.org/software=
+/bash/manual/html_node/Shell-Commands.html#Shell-Commands">3.2 Shell Comman=
+ds</a>
+    <ul class=3D"no-bullet">
+      <li><a id=3D"toc-Reserved-Words-1" href=3D"https://www.gnu.org/softwa=
+re/bash/manual/html_node/Reserved-Words.html#Reserved-Words">3.2.1 Reserved=
+ Words</a></li>
+      <li><a id=3D"toc-Simple-Commands-1" href=3D"https://www.gnu.org/softw=
+are/bash/manual/html_node/Simple-Commands.html#Simple-Commands">3.2.2 Simpl=
+e Commands</a></li>
+      <li><a id=3D"toc-Pipelines-1" href=3D"https://www.gnu.org/software/ba=
+sh/manual/html_node/Pipelines.html#Pipelines">3.2.3 Pipelines</a></li>
+      <li><a id=3D"toc-Lists-of-Commands" href=3D"https://www.gnu.org/softw=
+are/bash/manual/html_node/Lists.html#Lists">3.2.4 Lists of Commands</a></li=
+>
+      <li><a id=3D"toc-Compound-Commands-1" href=3D"https://www.gnu.org/sof=
+tware/bash/manual/html_node/Compound-Commands.html#Compound-Commands">3.2.5=
+ Compound Commands</a>
+      <ul class=3D"no-bullet">
+        <li><a id=3D"toc-Looping-Constructs-1" href=3D"https://www.gnu.org/=
+software/bash/manual/html_node/Looping-Constructs.html#Looping-Constructs">=
+3.2.5.1 Looping Constructs</a></li>
+        <li><a id=3D"toc-Conditional-Constructs-1" href=3D"https://www.gnu.=
+org/software/bash/manual/html_node/Conditional-Constructs.html#Conditional-=
+Constructs">3.2.5.2 Conditional Constructs</a></li>
+        <li><a id=3D"toc-Grouping-Commands" href=3D"https://www.gnu.org/sof=
+tware/bash/manual/html_node/Command-Grouping.html#Command-Grouping">3.2.5.3=
+ Grouping Commands</a></li>
+      </ul></li>
+      <li><a id=3D"toc-Coprocesses-1" href=3D"https://www.gnu.org/software/=
+bash/manual/html_node/Coprocesses.html#Coprocesses">3.2.6 Coprocesses</a></=
+li>
+      <li><a id=3D"toc-GNU-Parallel-1" href=3D"https://www.gnu.org/software=
+/bash/manual/html_node/GNU-Parallel.html#GNU-Parallel">3.2.7 GNU Parallel</=
+a></li>
+    </ul></li>
+    <li><a id=3D"toc-Shell-Functions-1" href=3D"https://www.gnu.org/softwar=
+e/bash/manual/html_node/Shell-Functions.html#Shell-Functions">3.3 Shell Fun=
+ctions</a></li>
+    <li><a id=3D"toc-Shell-Parameters-1" href=3D"https://www.gnu.org/softwa=
+re/bash/manual/html_node/Shell-Parameters.html#Shell-Parameters">3.4 Shell =
+Parameters</a>
+    <ul class=3D"no-bullet">
+      <li><a id=3D"toc-Positional-Parameters-1" href=3D"https://www.gnu.org=
+/software/bash/manual/html_node/Positional-Parameters.html#Positional-Param=
+eters">3.4.1 Positional Parameters</a></li>
+      <li><a id=3D"toc-Special-Parameters-1" href=3D"https://www.gnu.org/so=
+ftware/bash/manual/html_node/Special-Parameters.html#Special-Parameters">3.=
+4.2 Special Parameters</a></li>
+    </ul></li>
+    <li><a id=3D"toc-Shell-Expansions-1" href=3D"https://www.gnu.org/softwa=
+re/bash/manual/html_node/Shell-Expansions.html#Shell-Expansions">3.5 Shell =
+Expansions</a>
+    <ul class=3D"no-bullet">
+      <li><a id=3D"toc-Brace-Expansion-1" href=3D"https://www.gnu.org/softw=
+are/bash/manual/html_node/Brace-Expansion.html#Brace-Expansion">3.5.1 Brace=
+ Expansion</a></li>
+      <li><a id=3D"toc-Tilde-Expansion-1" href=3D"https://www.gnu.org/softw=
+are/bash/manual/html_node/Tilde-Expansion.html#Tilde-Expansion">3.5.2 Tilde=
+ Expansion</a></li>
+      <li><a id=3D"toc-Shell-Parameter-Expansion-1" href=3D"https://www.gnu=
+.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html#Shell-Pa=
+rameter-Expansion">3.5.3 Shell Parameter Expansion</a></li>
+      <li><a id=3D"toc-Command-Substitution-1" href=3D"https://www.gnu.org/=
+software/bash/manual/html_node/Command-Substitution.html#Command-Substituti=
+on">3.5.4 Command Substitution</a></li>
+      <li><a id=3D"toc-Arithmetic-Expansion-1" href=3D"https://www.gnu.org/=
+software/bash/manual/html_node/Arithmetic-Expansion.html#Arithmetic-Expansi=
+on">3.5.5 Arithmetic Expansion</a></li>
+      <li><a id=3D"toc-Process-Substitution-1" href=3D"https://www.gnu.org/=
+software/bash/manual/html_node/Process-Substitution.html#Process-Substituti=
+on">3.5.6 Process Substitution</a></li>
+      <li><a id=3D"toc-Word-Splitting-1" href=3D"https://www.gnu.org/softwa=
+re/bash/manual/html_node/Word-Splitting.html#Word-Splitting">3.5.7 Word Spl=
+itting</a></li>
+      <li><a id=3D"toc-Filename-Expansion-1" href=3D"https://www.gnu.org/so=
+ftware/bash/manual/html_node/Filename-Expansion.html#Filename-Expansion">3.=
+5.8 Filename Expansion</a>
+      <ul class=3D"no-bullet">
+        <li><a id=3D"toc-Pattern-Matching-1" href=3D"https://www.gnu.org/so=
+ftware/bash/manual/html_node/Pattern-Matching.html#Pattern-Matching">3.5.8.=
+1 Pattern Matching</a></li>
+      </ul></li>
+      <li><a id=3D"toc-Quote-Removal-1" href=3D"https://www.gnu.org/softwar=
+e/bash/manual/html_node/Quote-Removal.html#Quote-Removal">3.5.9 Quote Remov=
+al</a></li>
+    </ul></li>
+    <li><a id=3D"toc-Redirections-1" href=3D"https://www.gnu.org/software/b=
+ash/manual/html_node/Redirections.html#Redirections">3.6 Redirections</a>
+    <ul class=3D"no-bullet">
+      <li><a id=3D"toc-Redirecting-Input" href=3D"https://www.gnu.org/softw=
+are/bash/manual/html_node/Redirections.html#Redirecting-Input">3.6.1 Redire=
+cting Input</a></li>
+      <li><a id=3D"toc-Redirecting-Output" href=3D"https://www.gnu.org/soft=
+ware/bash/manual/html_node/Redirections.html#Redirecting-Output">3.6.2 Redi=
+recting Output</a></li>
+      <li><a id=3D"toc-Appending-Redirected-Output" href=3D"https://www.gnu=
+.org/software/bash/manual/html_node/Redirections.html#Appending-Redirected-=
+Output">3.6.3 Appending Redirected Output</a></li>
+      <li><a id=3D"toc-Redirecting-Standard-Output-and-Standard-Error" href=
+=3D"https://www.gnu.org/software/bash/manual/html_node/Redirections.html#Re=
+directing-Standard-Output-and-Standard-Error">3.6.4 Redirecting Standard Ou=
+tput and Standard Error</a></li>
+      <li><a id=3D"toc-Appending-Standard-Output-and-Standard-Error" href=
+=3D"https://www.gnu.org/software/bash/manual/html_node/Redirections.html#Ap=
+pending-Standard-Output-and-Standard-Error">3.6.5 Appending Standard Output=
+ and Standard Error</a></li>
+      <li><a id=3D"toc-Here-Documents" href=3D"https://www.gnu.org/software=
+/bash/manual/html_node/Redirections.html#Here-Documents">3.6.6 Here Documen=
+ts</a></li>
+      <li><a id=3D"toc-Here-Strings" href=3D"https://www.gnu.org/software/b=
+ash/manual/html_node/Redirections.html#Here-Strings">3.6.7 Here Strings</a>=
+</li>
+      <li><a id=3D"toc-Duplicating-File-Descriptors" href=3D"https://www.gn=
+u.org/software/bash/manual/html_node/Redirections.html#Duplicating-File-Des=
+criptors">3.6.8 Duplicating File Descriptors</a></li>
+      <li><a id=3D"toc-Moving-File-Descriptors" href=3D"https://www.gnu.org=
+/software/bash/manual/html_node/Redirections.html#Moving-File-Descriptors">=
+3.6.9 Moving File Descriptors</a></li>
+      <li><a id=3D"toc-Opening-File-Descriptors-for-Reading-and-Writing" hr=
+ef=3D"https://www.gnu.org/software/bash/manual/html_node/Redirections.html#=
+Opening-File-Descriptors-for-Reading-and-Writing">3.6.10 Opening File Descr=
+iptors for Reading and Writing</a></li>
+    </ul></li>
+    <li><a id=3D"toc-Executing-Commands-1" href=3D"https://www.gnu.org/soft=
+ware/bash/manual/html_node/Executing-Commands.html#Executing-Commands">3.7 =
+Executing Commands</a>
+    <ul class=3D"no-bullet">
+      <li><a id=3D"toc-Simple-Command-Expansion-1" href=3D"https://www.gnu.=
+org/software/bash/manual/html_node/Simple-Command-Expansion.html#Simple-Com=
+mand-Expansion">3.7.1 Simple Command Expansion</a></li>
+      <li><a id=3D"toc-Command-Search-and-Execution-1" href=3D"https://www.=
+gnu.org/software/bash/manual/html_node/Command-Search-and-Execution.html#Co=
+mmand-Search-and-Execution">3.7.2 Command Search and Execution</a></li>
+      <li><a id=3D"toc-Command-Execution-Environment-1" href=3D"https://www=
+.gnu.org/software/bash/manual/html_node/Command-Execution-Environment.html#=
+Command-Execution-Environment">3.7.3 Command Execution Environment</a></li>
+      <li><a id=3D"toc-Environment-1" href=3D"https://www.gnu.org/software/=
+bash/manual/html_node/Environment.html#Environment">3.7.4 Environment</a></=
+li>
+      <li><a id=3D"toc-Exit-Status-1" href=3D"https://www.gnu.org/software/=
+bash/manual/html_node/Exit-Status.html#Exit-Status">3.7.5 Exit Status</a></=
+li>
+      <li><a id=3D"toc-Signals-1" href=3D"https://www.gnu.org/software/bash=
+/manual/html_node/Signals.html#Signals">3.7.6 Signals</a></li>
+    </ul></li>
+    <li><a id=3D"toc-Shell-Scripts-1" href=3D"https://www.gnu.org/software/=
+bash/manual/html_node/Shell-Scripts.html#Shell-Scripts">3.8 Shell Scripts</=
+a></li>
+  </ul></li>
+  <li><a id=3D"toc-Shell-Builtin-Commands-1" href=3D"https://www.gnu.org/so=
+ftware/bash/manual/html_node/Shell-Builtin-Commands.html#Shell-Builtin-Comm=
+ands">4 Shell Builtin Commands</a>
+  <ul class=3D"no-bullet">
+    <li><a id=3D"toc-Bourne-Shell-Builtins-1" href=3D"https://www.gnu.org/s=
+oftware/bash/manual/html_node/Bourne-Shell-Builtins.html#Bourne-Shell-Built=
+ins">4.1 Bourne Shell Builtins</a></li>
+    <li><a id=3D"toc-Bash-Builtin-Commands" href=3D"https://www.gnu.org/sof=
+tware/bash/manual/html_node/Bash-Builtins.html#Bash-Builtins">4.2 Bash Buil=
+tin Commands</a></li>
+    <li><a id=3D"toc-Modifying-Shell-Behavior-1" href=3D"https://www.gnu.or=
+g/software/bash/manual/html_node/Modifying-Shell-Behavior.html#Modifying-Sh=
+ell-Behavior">4.3 Modifying Shell Behavior</a>
+    <ul class=3D"no-bullet">
+      <li><a id=3D"toc-The-Set-Builtin-1" href=3D"https://www.gnu.org/softw=
+are/bash/manual/html_node/The-Set-Builtin.html#The-Set-Builtin">4.3.1 The S=
+et Builtin</a></li>
+      <li><a id=3D"toc-The-Shopt-Builtin-1" href=3D"https://www.gnu.org/sof=
+tware/bash/manual/html_node/The-Shopt-Builtin.html#The-Shopt-Builtin">4.3.2=
+ The Shopt Builtin</a></li>
+    </ul></li>
+    <li><a id=3D"toc-Special-Builtins-1" href=3D"https://www.gnu.org/softwa=
+re/bash/manual/html_node/Special-Builtins.html#Special-Builtins">4.4 Specia=
+l Builtins</a></li>
+  </ul></li>
+  <li><a id=3D"toc-Shell-Variables-1" href=3D"https://www.gnu.org/software/=
+bash/manual/html_node/Shell-Variables.html#Shell-Variables">5 Shell Variabl=
+es</a>
+  <ul class=3D"no-bullet">
+    <li><a id=3D"toc-Bourne-Shell-Variables-1" href=3D"https://www.gnu.org/=
+software/bash/manual/html_node/Bourne-Shell-Variables.html#Bourne-Shell-Var=
+iables">5.1 Bourne Shell Variables</a></li>
+    <li><a id=3D"toc-Bash-Variables-1" href=3D"https://www.gnu.org/software=
+/bash/manual/html_node/Bash-Variables.html#Bash-Variables">5.2 Bash Variabl=
+es</a></li>
+  </ul></li>
+  <li><a id=3D"toc-Bash-Features-2" href=3D"https://www.gnu.org/software/ba=
+sh/manual/html_node/Bash-Features.html#Bash-Features">6 Bash Features</a>
+  <ul class=3D"no-bullet">
+    <li><a id=3D"toc-Invoking-Bash-1" href=3D"https://www.gnu.org/software/=
+bash/manual/html_node/Invoking-Bash.html#Invoking-Bash">6.1 Invoking Bash</=
+a></li>
+    <li><a id=3D"toc-Bash-Startup-Files-1" href=3D"https://www.gnu.org/soft=
+ware/bash/manual/html_node/Bash-Startup-Files.html#Bash-Startup-Files">6.2 =
+Bash Startup Files</a></li>
+    <li><a id=3D"toc-Interactive-Shells-1" href=3D"https://www.gnu.org/soft=
+ware/bash/manual/html_node/Interactive-Shells.html#Interactive-Shells">6.3 =
+Interactive Shells</a>
+    <ul class=3D"no-bullet">
+      <li><a id=3D"toc-What-is-an-Interactive-Shell_003f-1" href=3D"https:/=
+/www.gnu.org/software/bash/manual/html_node/What-is-an-Interactive-Shell_00=
+3f.html#What-is-an-Interactive-Shell_003f">6.3.1 What is an Interactive She=
+ll?</a></li>
+      <li><a id=3D"toc-Is-this-Shell-Interactive_003f-1" href=3D"https://ww=
+w.gnu.org/software/bash/manual/html_node/Is-this-Shell-Interactive_003f.htm=
+l#Is-this-Shell-Interactive_003f">6.3.2 Is this Shell Interactive?</a></li>
+      <li><a id=3D"toc-Interactive-Shell-Behavior-1" href=3D"https://www.gn=
+u.org/software/bash/manual/html_node/Interactive-Shell-Behavior.html#Intera=
+ctive-Shell-Behavior">6.3.3 Interactive Shell Behavior</a></li>
+    </ul></li>
+    <li><a id=3D"toc-Bash-Conditional-Expressions-1" href=3D"https://www.gn=
+u.org/software/bash/manual/html_node/Bash-Conditional-Expressions.html#Bash=
+-Conditional-Expressions">6.4 Bash Conditional Expressions</a></li>
+    <li><a id=3D"toc-Shell-Arithmetic-1" href=3D"https://www.gnu.org/softwa=
+re/bash/manual/html_node/Shell-Arithmetic.html#Shell-Arithmetic">6.5 Shell =
+Arithmetic</a></li>
+    <li><a id=3D"toc-Aliases-1" href=3D"https://www.gnu.org/software/bash/m=
+anual/html_node/Aliases.html#Aliases">6.6 Aliases</a></li>
+    <li><a id=3D"toc-Arrays-1" href=3D"https://www.gnu.org/software/bash/ma=
+nual/html_node/Arrays.html#Arrays">6.7 Arrays</a></li>
+    <li><a id=3D"toc-The-Directory-Stack-1" href=3D"https://www.gnu.org/sof=
+tware/bash/manual/html_node/The-Directory-Stack.html#The-Directory-Stack">6=
+.8 The Directory Stack</a>
+    <ul class=3D"no-bullet">
+      <li><a id=3D"toc-Directory-Stack-Builtins-1" href=3D"https://www.gnu.=
+org/software/bash/manual/html_node/Directory-Stack-Builtins.html#Directory-=
+Stack-Builtins">6.8.1 Directory Stack Builtins</a></li>
+    </ul></li>
+    <li><a id=3D"toc-Controlling-the-Prompt-1" href=3D"https://www.gnu.org/=
+software/bash/manual/html_node/Controlling-the-Prompt.html#Controlling-the-=
+Prompt">6.9 Controlling the Prompt</a></li>
+    <li><a id=3D"toc-The-Restricted-Shell-1" href=3D"https://www.gnu.org/so=
+ftware/bash/manual/html_node/The-Restricted-Shell.html#The-Restricted-Shell=
+">6.10 The Restricted Shell</a></li>
+    <li><a id=3D"toc-Bash-POSIX-Mode-1" href=3D"https://www.gnu.org/softwar=
+e/bash/manual/html_node/Bash-POSIX-Mode.html#Bash-POSIX-Mode">6.11 Bash POS=
+IX Mode</a></li>
+    <li><a id=3D"toc-Shell-Compatibility-Mode-1" href=3D"https://www.gnu.or=
+g/software/bash/manual/html_node/Shell-Compatibility-Mode.html#Shell-Compat=
+ibility-Mode">6.12 Shell Compatibility Mode</a></li>
+  </ul></li>
+  <li><a id=3D"toc-Job-Control-1" href=3D"https://www.gnu.org/software/bash=
+/manual/html_node/Job-Control.html#Job-Control">7 Job Control</a>
+  <ul class=3D"no-bullet">
+    <li><a id=3D"toc-Job-Control-Basics-1" href=3D"https://www.gnu.org/soft=
+ware/bash/manual/html_node/Job-Control-Basics.html#Job-Control-Basics">7.1 =
+Job Control Basics</a></li>
+    <li><a id=3D"toc-Job-Control-Builtins-1" href=3D"https://www.gnu.org/so=
+ftware/bash/manual/html_node/Job-Control-Builtins.html#Job-Control-Builtins=
+">7.2 Job Control Builtins</a></li>
+    <li><a id=3D"toc-Job-Control-Variables-1" href=3D"https://www.gnu.org/s=
+oftware/bash/manual/html_node/Job-Control-Variables.html#Job-Control-Variab=
+les">7.3 Job Control Variables</a></li>
+  </ul></li>
+  <li><a id=3D"toc-Command-Line-Editing-1" href=3D"https://www.gnu.org/soft=
+ware/bash/manual/html_node/Command-Line-Editing.html#Command-Line-Editing">=
+8 Command Line Editing</a>
+  <ul class=3D"no-bullet">
+    <li><a id=3D"toc-Introduction-to-Line-Editing" href=3D"https://www.gnu.=
+org/software/bash/manual/html_node/Introduction-and-Notation.html#Introduct=
+ion-and-Notation">8.1 Introduction to Line Editing</a></li>
+    <li><a id=3D"toc-Readline-Interaction-1" href=3D"https://www.gnu.org/so=
+ftware/bash/manual/html_node/Readline-Interaction.html#Readline-Interaction=
+">8.2 Readline Interaction</a>
+    <ul class=3D"no-bullet">
+      <li><a id=3D"toc-Readline-Bare-Essentials-1" href=3D"https://www.gnu.=
+org/software/bash/manual/html_node/Readline-Bare-Essentials.html#Readline-B=
+are-Essentials">8.2.1 Readline Bare Essentials</a></li>
+      <li><a id=3D"toc-Readline-Movement-Commands-1" href=3D"https://www.gn=
+u.org/software/bash/manual/html_node/Readline-Movement-Commands.html#Readli=
+ne-Movement-Commands">8.2.2 Readline Movement Commands</a></li>
+      <li><a id=3D"toc-Readline-Killing-Commands-1" href=3D"https://www.gnu=
+.org/software/bash/manual/html_node/Readline-Killing-Commands.html#Readline=
+-Killing-Commands">8.2.3 Readline Killing Commands</a></li>
+      <li><a id=3D"toc-Readline-Arguments-1" href=3D"https://www.gnu.org/so=
+ftware/bash/manual/html_node/Readline-Arguments.html#Readline-Arguments">8.=
+2.4 Readline Arguments</a></li>
+      <li><a id=3D"toc-Searching-for-Commands-in-the-History" href=3D"https=
+://www.gnu.org/software/bash/manual/html_node/Searching.html#Searching">8.2=
+.5 Searching for Commands in the History</a></li>
+    </ul></li>
+    <li><a id=3D"toc-Readline-Init-File-1" href=3D"https://www.gnu.org/soft=
+ware/bash/manual/html_node/Readline-Init-File.html#Readline-Init-File">8.3 =
+Readline Init File</a>
+    <ul class=3D"no-bullet">
+      <li><a id=3D"toc-Readline-Init-File-Syntax-1" href=3D"https://www.gnu=
+.org/software/bash/manual/html_node/Readline-Init-File-Syntax.html#Readline=
+-Init-File-Syntax">8.3.1 Readline Init File Syntax</a></li>
+      <li><a id=3D"toc-Conditional-Init-Constructs-1" href=3D"https://www.g=
+nu.org/software/bash/manual/html_node/Conditional-Init-Constructs.html#Cond=
+itional-Init-Constructs">8.3.2 Conditional Init Constructs</a></li>
+      <li><a id=3D"toc-Sample-Init-File-1" href=3D"https://www.gnu.org/soft=
+ware/bash/manual/html_node/Sample-Init-File.html#Sample-Init-File">8.3.3 Sa=
+mple Init File</a></li>
+    </ul></li>
+    <li><a id=3D"toc-Bindable-Readline-Commands-1" href=3D"https://www.gnu.=
+org/software/bash/manual/html_node/Bindable-Readline-Commands.html#Bindable=
+-Readline-Commands">8.4 Bindable Readline Commands</a>
+    <ul class=3D"no-bullet">
+      <li><a id=3D"toc-Commands-For-Moving-1" href=3D"https://www.gnu.org/s=
+oftware/bash/manual/html_node/Commands-For-Moving.html#Commands-For-Moving"=
+>8.4.1 Commands For Moving</a></li>
+      <li><a id=3D"toc-Commands-For-Manipulating-The-History" href=3D"https=
+://www.gnu.org/software/bash/manual/html_node/Commands-For-History.html#Com=
+mands-For-History">8.4.2 Commands For Manipulating The History</a></li>
+      <li><a id=3D"toc-Commands-For-Changing-Text" href=3D"https://www.gnu.=
+org/software/bash/manual/html_node/Commands-For-Text.html#Commands-For-Text=
+">8.4.3 Commands For Changing Text</a></li>
+      <li><a id=3D"toc-Killing-And-Yanking" href=3D"https://www.gnu.org/sof=
+tware/bash/manual/html_node/Commands-For-Killing.html#Commands-For-Killing"=
+>8.4.4 Killing And Yanking</a></li>
+      <li><a id=3D"toc-Specifying-Numeric-Arguments" href=3D"https://www.gn=
+u.org/software/bash/manual/html_node/Numeric-Arguments.html#Numeric-Argumen=
+ts">8.4.5 Specifying Numeric Arguments</a></li>
+      <li><a id=3D"toc-Letting-Readline-Type-For-You" href=3D"https://www.g=
+nu.org/software/bash/manual/html_node/Commands-For-Completion.html#Commands=
+-For-Completion">8.4.6 Letting Readline Type For You</a></li>
+      <li><a id=3D"toc-Keyboard-Macros-1" href=3D"https://www.gnu.org/softw=
+are/bash/manual/html_node/Keyboard-Macros.html#Keyboard-Macros">8.4.7 Keybo=
+ard Macros</a></li>
+      <li><a id=3D"toc-Some-Miscellaneous-Commands" href=3D"https://www.gnu=
+.org/software/bash/manual/html_node/Miscellaneous-Commands.html#Miscellaneo=
+us-Commands">8.4.8 Some Miscellaneous Commands</a></li>
+    </ul></li>
+    <li><a id=3D"toc-Readline-vi-Mode-1" href=3D"https://www.gnu.org/softwa=
+re/bash/manual/html_node/Readline-vi-Mode.html#Readline-vi-Mode">8.5 Readli=
+ne vi Mode</a></li>
+    <li><a id=3D"toc-Programmable-Completion-1" href=3D"https://www.gnu.org=
+/software/bash/manual/html_node/Programmable-Completion.html#Programmable-C=
+ompletion">8.6 Programmable Completion</a></li>
+    <li><a id=3D"toc-Programmable-Completion-Builtins-1" href=3D"https://ww=
+w.gnu.org/software/bash/manual/html_node/Programmable-Completion-Builtins.h=
+tml#Programmable-Completion-Builtins">8.7 Programmable Completion Builtins<=
+/a></li>
+    <li><a id=3D"toc-A-Programmable-Completion-Example-1" href=3D"https://w=
+ww.gnu.org/software/bash/manual/html_node/A-Programmable-Completion-Example=
+.html#A-Programmable-Completion-Example">8.8 A Programmable Completion Exam=
+ple</a></li>
+  </ul></li>
+  <li><a id=3D"toc-Using-History-Interactively-1" href=3D"https://www.gnu.o=
+rg/software/bash/manual/html_node/Using-History-Interactively.html#Using-Hi=
+story-Interactively">9 Using History Interactively</a>
+  <ul class=3D"no-bullet">
+    <li><a id=3D"toc-Bash-History-Facilities-1" href=3D"https://www.gnu.org=
+/software/bash/manual/html_node/Bash-History-Facilities.html#Bash-History-F=
+acilities">9.1 Bash History Facilities</a></li>
+    <li><a id=3D"toc-Bash-History-Builtins-1" href=3D"https://www.gnu.org/s=
+oftware/bash/manual/html_node/Bash-History-Builtins.html#Bash-History-Built=
+ins">9.2 Bash History Builtins</a></li>
+    <li><a id=3D"toc-History-Expansion" href=3D"https://www.gnu.org/softwar=
+e/bash/manual/html_node/History-Interaction.html#History-Interaction">9.3 H=
+istory Expansion</a>
+    <ul class=3D"no-bullet">
+      <li><a id=3D"toc-Event-Designators-1" href=3D"https://www.gnu.org/sof=
+tware/bash/manual/html_node/Event-Designators.html#Event-Designators">9.3.1=
+ Event Designators</a></li>
+      <li><a id=3D"toc-Word-Designators-1" href=3D"https://www.gnu.org/soft=
+ware/bash/manual/html_node/Word-Designators.html#Word-Designators">9.3.2 Wo=
+rd Designators</a></li>
+      <li><a id=3D"toc-Modifiers-1" href=3D"https://www.gnu.org/software/ba=
+sh/manual/html_node/Modifiers.html#Modifiers">9.3.3 Modifiers</a></li>
+    </ul></li>
+  </ul></li>
+  <li><a id=3D"toc-Installing-Bash-1" href=3D"https://www.gnu.org/software/=
+bash/manual/html_node/Installing-Bash.html#Installing-Bash">10 Installing B=
+ash</a>
+  <ul class=3D"no-bullet">
+    <li><a id=3D"toc-Basic-Installation-1" href=3D"https://www.gnu.org/soft=
+ware/bash/manual/html_node/Basic-Installation.html#Basic-Installation">10.1=
+ Basic Installation</a></li>
+    <li><a id=3D"toc-Compilers-and-Options-1" href=3D"https://www.gnu.org/s=
+oftware/bash/manual/html_node/Compilers-and-Options.html#Compilers-and-Opti=
+ons">10.2 Compilers and Options</a></li>
+    <li><a id=3D"toc-Compiling-For-Multiple-Architectures-1" href=3D"https:=
+//www.gnu.org/software/bash/manual/html_node/Compiling-For-Multiple-Archite=
+ctures.html#Compiling-For-Multiple-Architectures">10.3 Compiling For Multip=
+le Architectures</a></li>
+    <li><a id=3D"toc-Installation-Names-1" href=3D"https://www.gnu.org/soft=
+ware/bash/manual/html_node/Installation-Names.html#Installation-Names">10.4=
+ Installation Names</a></li>
+    <li><a id=3D"toc-Specifying-the-System-Type-1" href=3D"https://www.gnu.=
+org/software/bash/manual/html_node/Specifying-the-System-Type.html#Specifyi=
+ng-the-System-Type">10.5 Specifying the System Type</a></li>
+    <li><a id=3D"toc-Sharing-Defaults-1" href=3D"https://www.gnu.org/softwa=
+re/bash/manual/html_node/Sharing-Defaults.html#Sharing-Defaults">10.6 Shari=
+ng Defaults</a></li>
+    <li><a id=3D"toc-Operation-Controls-1" href=3D"https://www.gnu.org/soft=
+ware/bash/manual/html_node/Operation-Controls.html#Operation-Controls">10.7=
+ Operation Controls</a></li>
+    <li><a id=3D"toc-Optional-Features-1" href=3D"https://www.gnu.org/softw=
+are/bash/manual/html_node/Optional-Features.html#Optional-Features">10.8 Op=
+tional Features</a></li>
+  </ul></li>
+  <li><a id=3D"toc-Reporting-Bugs-1" href=3D"https://www.gnu.org/software/b=
+ash/manual/html_node/Reporting-Bugs.html#Reporting-Bugs">Appendix A Reporti=
+ng Bugs</a></li>
+  <li><a id=3D"toc-Major-Differences-From-The-Bourne-Shell-1" href=3D"https=
+://www.gnu.org/software/bash/manual/html_node/Major-Differences-From-The-Bo=
+urne-Shell.html#Major-Differences-From-The-Bourne-Shell">Appendix B Major D=
+ifferences From The Bourne Shell</a>
+  <ul class=3D"no-bullet">
+    <li><a id=3D"toc-Implementation-Differences-From-The-SVR4_002e2-Shell" =
+href=3D"https://www.gnu.org/software/bash/manual/html_node/Major-Difference=
+s-From-The-Bourne-Shell.html#Implementation-Differences-From-The-SVR4_002e2=
+-Shell">B.1 Implementation Differences From The SVR4.2 Shell</a></li>
+  </ul></li>
+  <li><a id=3D"toc-GNU-Free-Documentation-License-1" href=3D"https://www.gn=
+u.org/software/bash/manual/html_node/GNU-Free-Documentation-License.html#GN=
+U-Free-Documentation-License">Appendix C GNU Free Documentation License</a>=
+</li>
+  <li><a id=3D"toc-Indexes-1" href=3D"https://www.gnu.org/software/bash/man=
+ual/html_node/Indexes.html#Indexes">Appendix D Indexes</a>
+  <ul class=3D"no-bullet">
+    <li><a id=3D"toc-Index-of-Shell-Builtin-Commands" href=3D"https://www.g=
+nu.org/software/bash/manual/html_node/Builtin-Index.html#Builtin-Index" rel=
+=3D"index">D.1 Index of Shell Builtin Commands</a></li>
+    <li><a id=3D"toc-Index-of-Shell-Reserved-Words" href=3D"https://www.gnu=
+.org/software/bash/manual/html_node/Reserved-Word-Index.html#Reserved-Word-=
+Index" rel=3D"index">D.2 Index of Shell Reserved Words</a></li>
+    <li><a id=3D"toc-Parameter-and-Variable-Index" href=3D"https://www.gnu.=
+org/software/bash/manual/html_node/Variable-Index.html#Variable-Index" rel=
+=3D"index">D.3 Parameter and Variable Index</a></li>
+    <li><a id=3D"toc-Function-Index-1" href=3D"https://www.gnu.org/software=
+/bash/manual/html_node/Function-Index.html#Function-Index" rel=3D"index">D.=
+4 Function Index</a></li>
+    <li><a id=3D"toc-Concept-Index-1" href=3D"https://www.gnu.org/software/=
+bash/manual/html_node/Concept-Index.html#Concept-Index" rel=3D"index">D.5 C=
+oncept Index</a></li>
+  </ul></li>
+</ul>
+</div>
+
+
+<span id=3D"Top"></span><div class=3D"header">
+<p>
+Next: <a href=3D"https://www.gnu.org/software/bash/manual/html_node/Introdu=
+ction.html" accesskey=3D"n" rel=3D"next">Introduction</a>, Previous: <a hre=
+f=3D"https://www.gnu.org/software/bash/manual/dir/index.html" accesskey=3D"=
+p" rel=3D"prev">(dir)</a>, Up: <a href=3D"https://www.gnu.org/software/bash=
+/manual/dir/index.html" accesskey=3D"u" rel=3D"up">(dir)</a> &nbsp; [<a hre=
+f=3D"https://www.gnu.org/software/bash/manual/html_node/index.html#SEC_Cont=
+ents" title=3D"Table of contents" rel=3D"contents">Contents</a>][<a href=3D=
+"https://www.gnu.org/software/bash/manual/html_node/Indexes.html" title=3D"=
+Index" rel=3D"index">Index</a>]</p>
+</div>
+<hr>
+<span id=3D"Bash-Features-1"></span><h1 class=3D"top">Bash Features</h1>
+
+<p>This text is a brief description of the features that are present in
+the Bash shell (version 5.1, 21 December 2020).
+The Bash home page is <a href=3D"http://www.gnu.org/software/bash/">http://=
+www.gnu.org/software/bash/</a>.
+</p>
+<p>This is Edition 5.1, last updated 21 December 2020,
+of <cite>The GNU Bash Reference Manual</cite>,
+for <code>Bash</code>, Version 5.1.
+</p>
+<p>Bash contains features that appear in other popular shells, and some
+features that only appear in Bash.  Some of the shells that Bash has
+borrowed concepts from are the Bourne Shell (<samp>sh</samp>), the Korn She=
+ll
+(<samp>ksh</samp>), and the C-shell (<samp>csh</samp> and its successor,
+<samp>tcsh</samp>).  The following menu breaks the features up into
+categories, noting which features were inspired by other shells and
+which are specific to Bash.
+</p>
+<p>This manual is meant as a brief introduction to features found in
+Bash.  The Bash manual page should be used as the definitive
+reference on shell behavior.
+</p>
+<table class=3D"menu" border=3D"0" cellspacing=3D"0">
+<tbody><tr><td align=3D"left" valign=3D"top">=E2=80=A2 <a href=3D"https://w=
+ww.gnu.org/software/bash/manual/html_node/Introduction.html" accesskey=3D"1=
+">Introduction</a></td><td>&nbsp;&nbsp;</td><td align=3D"left" valign=3D"to=
+p">An introduction to the shell.
+</td></tr>
+<tr><td align=3D"left" valign=3D"top">=E2=80=A2 <a href=3D"https://www.gnu.=
+org/software/bash/manual/html_node/Definitions.html" accesskey=3D"2">Defini=
+tions</a></td><td>&nbsp;&nbsp;</td><td align=3D"left" valign=3D"top">Some d=
+efinitions used in the rest of this
+				manual.
+</td></tr>
+<tr><td align=3D"left" valign=3D"top">=E2=80=A2 <a href=3D"https://www.gnu.=
+org/software/bash/manual/html_node/Basic-Shell-Features.html" accesskey=3D"=
+3">Basic Shell Features</a></td><td>&nbsp;&nbsp;</td><td align=3D"left" val=
+ign=3D"top">The shell "building blocks".
+</td></tr>
+<tr><td align=3D"left" valign=3D"top">=E2=80=A2 <a href=3D"https://www.gnu.=
+org/software/bash/manual/html_node/Shell-Builtin-Commands.html" accesskey=
+=3D"4">Shell Builtin Commands</a></td><td>&nbsp;&nbsp;</td><td align=3D"lef=
+t" valign=3D"top">Commands that are a part of the shell.
+</td></tr>
+<tr><td align=3D"left" valign=3D"top">=E2=80=A2 <a href=3D"https://www.gnu.=
+org/software/bash/manual/html_node/Shell-Variables.html" accesskey=3D"5">Sh=
+ell Variables</a></td><td>&nbsp;&nbsp;</td><td align=3D"left" valign=3D"top=
+">Variables used or set by Bash.
+</td></tr>
+<tr><td align=3D"left" valign=3D"top">=E2=80=A2 <a href=3D"https://www.gnu.=
+org/software/bash/manual/html_node/Bash-Features.html" accesskey=3D"6">Bash=
+ Features</a></td><td>&nbsp;&nbsp;</td><td align=3D"left" valign=3D"top">Fe=
+atures found only in Bash.
+</td></tr>
+<tr><td align=3D"left" valign=3D"top">=E2=80=A2 <a href=3D"https://www.gnu.=
+org/software/bash/manual/html_node/Job-Control.html" accesskey=3D"7">Job Co=
+ntrol</a></td><td>&nbsp;&nbsp;</td><td align=3D"left" valign=3D"top">What j=
+ob control is and how Bash allows you
+				to use it.
+</td></tr>
+<tr><td align=3D"left" valign=3D"top">=E2=80=A2 <a href=3D"https://www.gnu.=
+org/software/bash/manual/html_node/Command-Line-Editing.html" accesskey=3D"=
+8">Command Line Editing</a></td><td>&nbsp;&nbsp;</td><td align=3D"left" val=
+ign=3D"top">Chapter describing the command line
+				editing features.
+</td></tr>
+<tr><td align=3D"left" valign=3D"top">=E2=80=A2 <a href=3D"https://www.gnu.=
+org/software/bash/manual/html_node/Using-History-Interactively.html" access=
+key=3D"9">Using History Interactively</a></td><td>&nbsp;&nbsp;</td><td alig=
+n=3D"left" valign=3D"top">Command History Expansion
+</td></tr>
+<tr><td align=3D"left" valign=3D"top">=E2=80=A2 <a href=3D"https://www.gnu.=
+org/software/bash/manual/html_node/Installing-Bash.html">Installing Bash</a=
+></td><td>&nbsp;&nbsp;</td><td align=3D"left" valign=3D"top">How to build a=
+nd install Bash on your system.
+</td></tr>
+<tr><td align=3D"left" valign=3D"top">=E2=80=A2 <a href=3D"https://www.gnu.=
+org/software/bash/manual/html_node/Reporting-Bugs.html">Reporting Bugs</a><=
+/td><td>&nbsp;&nbsp;</td><td align=3D"left" valign=3D"top">How to report bu=
+gs in Bash.
+</td></tr>
+<tr><td align=3D"left" valign=3D"top">=E2=80=A2 <a href=3D"https://www.gnu.=
+org/software/bash/manual/html_node/Major-Differences-From-The-Bourne-Shell.=
+html">Major Differences From The Bourne Shell</a></td><td>&nbsp;&nbsp;</td>=
+<td align=3D"left" valign=3D"top">A terse list of the differences
+						between Bash and historical
+						versions of /bin/sh.
+</td></tr>
+<tr><td align=3D"left" valign=3D"top">=E2=80=A2 <a href=3D"https://www.gnu.=
+org/software/bash/manual/html_node/GNU-Free-Documentation-License.html">GNU=
+ Free Documentation License</a></td><td>&nbsp;&nbsp;</td><td align=3D"left"=
+ valign=3D"top">Copying and sharing this documentation.
+</td></tr>
+<tr><td align=3D"left" valign=3D"top">=E2=80=A2 <a href=3D"https://www.gnu.=
+org/software/bash/manual/html_node/Indexes.html">Indexes</a></td><td>&nbsp;=
+&nbsp;</td><td align=3D"left" valign=3D"top">Various indexes for this manua=
+l.
+</td></tr>
+</tbody></table>
+
+<hr>
+<div class=3D"header">
+<p>
+Next: <a href=3D"https://www.gnu.org/software/bash/manual/html_node/Introdu=
+ction.html" accesskey=3D"n" rel=3D"next">Introduction</a>, Previous: <a hre=
+f=3D"https://www.gnu.org/software/bash/manual/dir/index.html" accesskey=3D"=
+p" rel=3D"prev">(dir)</a>, Up: <a href=3D"https://www.gnu.org/software/bash=
+/manual/dir/index.html" accesskey=3D"u" rel=3D"up">(dir)</a> &nbsp; [<a hre=
+f=3D"https://www.gnu.org/software/bash/manual/html_node/index.html#SEC_Cont=
+ents" title=3D"Table of contents" rel=3D"contents">Contents</a>][<a href=3D=
+"https://www.gnu.org/software/bash/manual/html_node/Indexes.html" title=3D"=
+Index" rel=3D"index">Index</a>]</p>
+</div>
+
+
+
+
+
+</body><whale-quicksearch translate=3D"no"><template shadowmode=3D"closed">=
+<div class=3D"quicksearch"></div></template></whale-quicksearch></html>
+------MultipartBoundary--DgjLGDwKHtpxF809k8zl8cOoQhb5VnbSTKg7VsGLrT----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-e3a0b070-55c4-47e4-9e96-49a88ffa83da@mhtml.blink
+
+@charset "utf-8";
+
+a.summary-letter { text-decoration: none; }
+
+blockquote.indentedblock { margin-right: 0em; }
+
+div.display { margin-left: 3.2em; }
+
+div.example { margin-left: 3.2em; }
+
+div.lisp { margin-left: 3.2em; }
+
+kbd { font-style: oblique; }
+
+pre.display { font-family: inherit; }
+
+pre.format { font-family: inherit; }
+
+pre.menu-comment { font-family: serif; }
+
+pre.menu-preformatted { font-family: serif; }
+
+span.nolinebreak { white-space: nowrap; }
+
+span.roman { font-family: initial; font-weight: normal; }
+
+span.sansserif { font-family: sans-serif; font-weight: normal; }
+
+ul.no-bullet { list-style: none; }
+------MultipartBoundary--DgjLGDwKHtpxF809k8zl8cOoQhb5VnbSTKg7VsGLrT----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.gnu.org/software/gnulib/manual.css
+
+@charset "utf-8";
+
+@import url("/style.css");
+
+blockquote { font-style: normal; border-left: 10px solid red; padding-left:=
+ 2.5%; margin-left: 0px; }
+
+p, pre, li, dt, dd, table, code, address { line-height: 1.5em; }
+
+var { font-style: italic; }
+
+div.lisp { padding: 0.8em 1.2em 0.4em; }
+
+pre.lisp { padding: 0.8em 1.2em; }
+
+div.lisp, pre.lisp { margin: 1em 0px 1em 3%; border-radius: 0.3em; border: =
+1px solid rgb(212, 203, 182); background-color: rgb(242, 239, 228); }
+
+div.lisp > pre.lisp { padding: 0px 0px 0.4em; margin: 0px; border: none; }
+
+.header { line-height: 2em; font-size: 87.5%; color: rgb(68, 51, 51); }
+
+.settitle, .top, .chapter { font-family: "Fira Sans", sans; font-size: 250%=
+; }
+
+.section, .subsection, .subsubsection { font-family: "Fira Sans", sans; fon=
+t-size: 150%; }
+
+dd p, li p { margin-left: 0px; margin-right: 0px; }
+
+a { text-decoration: none; outline-style: none; }
+
+a:hover { text-decoration: underline; }
+
+body { max-width: 45em; }
+------MultipartBoundary--DgjLGDwKHtpxF809k8zl8cOoQhb5VnbSTKg7VsGLrT----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.gnu.org/style.css
+
+@charset "utf-8";
+
+@import url("/reset.css");
+
+html, body { font-size: 1em; text-align: left; text-decoration: none; }
+
+html { background-color: rgb(231, 231, 231); }
+
+body { max-width: 74.92em; margin: 0px auto; padding: 0.5em 1em 1em; backgr=
+ound-color: white; border: 0.1em solid rgb(192, 192, 192); }
+
+p, pre, li, dt, dd, table, code, address { line-height: 1.3em; }
+
+h1 { font-size: 2em; margin: 1em 0px; }
+
+h2 { font-size: 1.5em; margin: 1em 0px 0.87em; }
+
+h3 { font-size: 1.3em; margin: 1em 0px 0.87em; }
+
+h4 { font-size: 1.13em; margin: 1em 0px 0.88em; }
+
+h5 { font-size: 1em; margin: 1em 0px; }
+
+p, pre { margin: 1em 0px; }
+
+pre { overflow: auto; padding-bottom: 0.3em; }
+
+ul, ol, blockquote { margin-left: 1.5%; margin-right: 1.5%; }
+
+hr { margin: 1em 0px; }
+
+ul li { margin: 0.5em 1em; }
+
+ol li { margin: 1em; }
+
+ol ul li { margin: 0.5em 1em; }
+
+ul li p, ul ul li { margin-top: 0.3em; margin-bottom: 0.3em; }
+
+ul ul, ol ul { margin-top: 0px; margin-bottom: 0px; }
+
+dl { margin: 1em 0px 0px; }
+
+dt { margin: 0.5em 0px; }
+
+dd { margin: 0.5em 3% 1em; }
+
+dd p { margin: 0.5em 0px; }
+
+table { display: block; overflow: auto; margin-top: 1.5em; margin-bottom: 1=
+.5em; }
+
+th { padding: 0.3em 0.5em; text-align: center; }
+
+td { padding: 0.2em 0.5em; }
+
+address { margin-bottom: 1em; }
+
+caption { margin-bottom: 0.5em; text-align: center; }
+
+sup { vertical-align: super; }
+
+sub { vertical-align: sub; }
+
+h1, h2, h3, h4, h5, h6, strong, dt, th { font-weight: bold; }
+
+h1, h2, h3, h4 { color: rgb(51, 51, 51); }
+
+h5, h6, dt { color: rgb(34, 34, 34); }
+
+a[href] { color: rgb(0, 80, 144); }
+
+a[href]:visited { color: rgb(16, 0, 112); }
+
+a[href]:active, a[href]:hover { color: rgb(16, 0, 112); text-decoration: no=
+ne; }
+
+h1 a[href]:visited, h2 a[href]:visited, h3 a[href]:visited, h4 a[href]:visi=
+ted { color: rgb(0, 80, 144); }
+
+h1 a[href]:hover, h2 a[href]:hover, h3 a[href]:hover, h4 a[href]:hover { co=
+lor: rgb(16, 0, 112); }
+
+ol { list-style: outside decimal; }
+
+ul { list-style: outside square; }
+
+ul ul, ol ul { list-style: circle; }
+
+li { list-style: inherit; }
+
+hr { background-color: rgb(237, 230, 213); }
+
+table { border: 0px; }
+
+abbr, acronym { border-bottom: 1px dotted rgb(0, 0, 0); text-decoration: no=
+ne; cursor: help; }
+
+del { text-decoration: line-through; }
+
+em { font-style: italic; }
+
+small { font-size: 0.9em; }
+
+img { max-width: 100%; }
+
+.center, .c { text-align: center; }
+
+.nocenter { text-align: left; }
+
+.underline { text-decoration: underline; }
+
+.nounderline { text-decoration: none; }
+
+.no-bullet { list-style: none; }
+
+.inline-list li { display: inline; }
+
+.netscape4, .no-display { display: none; }
+
+.contents ul, .shortcontents ul { font-weight: bold; }
+
+.contents ul ul, .shortcontents ul ul { font-weight: normal; }
+
+.contents ul { list-style: none; }
+
+.header, .node { margin: 0px -1em; padding: 0px 1em; }
+
+.header p, .node p { line-height: 2em; }
+
+.node a, .header a { display: inline-block; line-height: 2em; }
+
+.node a:hover, .header a:hover { background: rgb(242, 239, 228); }
+
+table.cartouche td { padding: 1.5em; }
+
+div.display, div.lisp, div.smalldisplay, div.smallexample, div.smalllisp { =
+margin-left: 3%; }
+
+div.example { padding: 0.8em 1.2em 0.4em; }
+
+pre.example { padding: 0.8em 1.2em; }
+
+div.example, pre.example { margin: 1em 0px 1em 3%; border-radius: 0.3em; bo=
+rder: 1px solid rgb(212, 203, 182); background-color: rgb(242, 239, 228); }
+
+div.example > pre.example { padding: 0px 0px 0.4em; margin: 0px; border: no=
+ne; }
+
+pre.menu-comment { padding-top: 1.3em; margin: 0px; }
+
+@media (min-width: 40em) {
+  body { padding: 0.5em 3em 1em; }
+  div.header, div.node { margin: 0px -3em; padding: 0px 3em; }
+}
+------MultipartBoundary--DgjLGDwKHtpxF809k8zl8cOoQhb5VnbSTKg7VsGLrT----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.gnu.org/reset.css
+
+@charset "utf-8";
+
+html { color: rgb(0, 0, 0); background: rgb(255, 255, 255); }
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form,=
+ fieldset, legend, input, button, textarea, p, blockquote, th, td { margin:=
+ 0px; padding: 0px; }
+
+table { border-collapse: collapse; border-spacing: 0px; }
+
+fieldset, img { border: 0px; }
+
+address, caption, cite, code, dfn, em, strong, th, var, optgroup { font-sty=
+le: inherit; font-weight: inherit; }
+
+del, ins { text-decoration: none; }
+
+li { list-style: none; }
+
+caption, th { text-align: left; }
+
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; }
+
+q::before, q::after { content: ""; }
+
+abbr, acronym { border: 0px; font-variant: normal; }
+
+sup { vertical-align: baseline; }
+
+sub { vertical-align: baseline; }
+
+legend { color: rgb(0, 0, 0); }
+
+input, button, textarea, select, optgroup, option { font-family: inherit; f=
+ont-size: inherit; font-style: inherit; font-weight: inherit; }
+
+input, button, textarea, select { }
+------MultipartBoundary--DgjLGDwKHtpxF809k8zl8cOoQhb5VnbSTKg7VsGLrT------
