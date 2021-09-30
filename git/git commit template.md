@@ -22,4 +22,4 @@
 
   위 명령어를 통해 템플릿을 적용한 후 *--m 태그* 를 제외한 commit 명령을 실행시키면  Vim 에디터가 실행되어 작성한 템플릿을 확인할 수 있으며 해당 화면을 통해 Commit Message를 작성할 수 있다. 
 
-![img1](./img/git_commit_template_1.png)
+![img1](../img/git_commit_template_1.png)

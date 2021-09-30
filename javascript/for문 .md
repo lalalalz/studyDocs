@@ -46,7 +46,7 @@
 #### 1.4.2. iterator protocols
   Symbol.iterator 메소드는 이터레이터를 반환한다. 그리고 이터레이터는 **next( )메소드가 구현**되어 있어야만 한다. 그리고 **next( )메소드는 이터레이터 리절트 객체를 반환하는데 이 객체는 value와 done 프로퍼티**를 갖는다. 자세한 내용은 [여기](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols) 참조.
 
-![itertation protocols](./img/for문_1.png)
+![itertation protocols](../img/for문_1.png)
 
 
 #### 1.4.3. iteration protocols 정리
@@ -61,7 +61,7 @@
 
   위의 내용을 통해 커스텀 iterable 객체를 생성해보았다. 결과는 아래와 같다.
 
-<img src="./img/for문_2.png" alt="사진2" style="zoom: 150%;" />
+<img src="../img/for문_2.png" alt="사진2" style="zoom: 150%;" />
 
 
 
